@@ -4,7 +4,7 @@ from os import system
 from time import gmtime, strftime
 
 def discord():
-    system("title " + 'Discord parser by @racursbtw')
+    system("title " + 'DISCORD PARSER')
 
     path = input('Введите путь к папке с логами: ')
     a = list(filter(os.path.isdir, [f'{path}/' + x for x in os.listdir(path)]))

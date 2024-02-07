@@ -1,10 +1,11 @@
 import os
+from os import system
 import shutil
 import random
 import string
 
 def cookies_parser():
-    
+    system("title " + 'COOKIES SORTER')
     def find_and_move_cookies_folder(source_dir, destination_dir):
         if not os.path.isdir(source_dir):
             print(f"Папки {source_dir} не существует.")
